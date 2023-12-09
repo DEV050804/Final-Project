@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styleproduct.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <title>Apple Watch Store</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Delius+Swash+Caps&family=Libre+Bodoni:wght@600&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/6dc11c4674.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  <!-- Anime.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.0"></script>
+  <script src="./js/custom.js"></script>
+</head>
+
+
+<body>
+  <header>
+    <div class="logo">Apple Watch Store</div>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./product.html">Products</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="products">
+    <h2>Our Apple Watch Collection</h2>
+    <p>Explore our curated collection of Apple Watches featuring the latest technology and stylish designs. Find the perfect Apple Watch to suit your needs.</p>
+  </section>
+
+  <section class="product-category">
+    <h2>Apple Watches</h2>
+    <div class="product-list">
+
+      <div class="product1">
+        <img src="./img/img-1.png" alt="Apple Watch Series 9">
+        <h3>Apple Watch Series 9</h3>
+        <p class="product-description">Experience the innovation of the latest Apple Watch Series 9. Seamlessly integrates with your lifestyle, offering style, fitness, and advanced features.</p>
+        <p class="product-price">$699.99</p>
+        <button class="add-to-cart-button" onclick="addToCart(this)">Add to Cart</button>
+      </div>
+
+      <div class="product2">
+        <img src="./img/ULTRA.png" alt="Apple Watch Ultra">
+        <h3>Apple Watch Ultra</h3>
+        <p class="product-description">Experience the future of wearable technology with the Apple Watch Ultra. This cutting-edge smartwatch combines sleek design with advanced features to elevate your daily life. Stay connected with notifications, track your fitness and health goals, and enjoy seamless integration with your Apple devices. The Apple Watch Ultra is not just a timepiece; it's a companion that empowers you to live a more active, informed, and connected lifestyle.</p>
+        <p class="product-price">$1099.99</p>
+        <button class="add-to-cart-button" onclick="addToCart(this)">Add to Cart</button>
+    </div>
+
+    <!-- Apple Watch Series 8 -->
+<div class="product">
+  <img src="./img/WATCH-8.png" alt="Apple Watch Series 8">
+  <h3>Apple Watch Series 8</h3>
+  <p class="product-description">Introducing the Apple Watch Series 8, the latest innovation in smartwatches. With a sleek design and advanced features, stay on top of your health, fitness, and connectivity. Experience seamless integration with your Apple devices and enjoy the convenience of a truly smart companion on your wrist.</p>
+  <p class="product-price">$599.99</p>
+  <button class="add-to-cart-button" onclick="addToCart(this)">Add to Cart</button>
+</div>
+
+<!-- Apple Watch Series 7 -->
+<div class="product">
+  <img src="./img/WATCH-7.png" alt="Apple Watch Series 7">
+  <h3>Apple Watch Series 7</h3>
+  <p class="product-description">Upgrade your wristwear with the Apple Watch Series 7. Its edge-to-edge display, powerful features, and stylish design make it a must-have accessory. Keep track of your fitness goals, receive notifications, and enjoy the seamless integration that Apple products are known for.</p>
+  <p class="product-price">$499.99</p>
+  <button class="add-to-cart-button" onclick="addToCart(this)">Add to Cart</button>
+</div>
+
+<!-- Apple Watch Series 6 -->
+<div class="product">
+  <img src="./img/WATCH-6.png" alt="Apple Watch Series 6">
+  <h3>Apple Watch Series 6</h3>
+  <p class="product-description">Discover the power of the Apple Watch Series 6. Packed with advanced health and fitness features, this smartwatch helps you lead a healthier lifestyle. With a stunning display and customizable watch faces, the Series 6 is a perfect blend of style and functionality.</p>
+  <p class="product-price">$399.99</p>
+  <button class="add-to-cart-button" onclick="addToCart(this)">Add to Cart</button>
+</div>
+
+<!-- Apple Watch SE -->
+<div class="product">
+  <img src="./img/WATCH-SE.png" alt="Apple Watch SE">
+  <h3>Apple Watch SE</h3>
+  <p class="product-description">Meet the Apple Watch SE, a powerful and affordable entry into the Apple Watch lineup. Enjoy essential features like fitness tracking, heart rate monitoring, and seamless connectivity with your iPhone. The Apple Watch SE is designed to bring the best of Apple's smartwatch technology to a broader audience.</p>
+  <p class="product-price">$299.99</p>
+  <button class="add-to-cart-button" onclick="addToCart(this)">Add to Cart</button>
+</div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+
+        <!-- Social Media Icon Links -->
+        <div class="social-icons">
+            <a href="#" class="icon icon-anim"><i class="ri-facebook-circle-fill"></i></a>
+            <a href="#" class="icon icon-anim"><i class="ri-instagram-fill"></i></a>
+            <a href="#" class="icon icon-anim"><i class="ri-twitter-fill"></i></a>
+            <a href="#" class="icon icon-anim"><i class="ri-linkedin-box-fill"></i></a>
+            <a href="#" class="icon icon-anim"><i class="ri-youtube-fill"></i></a>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="footer-nav">
+            <ul>
+                <li><a href="#Home" class="nav-item">Home</a></li>
+                <li><a href="about.html" class="nav-item">About us</a></li>
+                <li><a href="product.html" class="nav-item">Products</a></li>
+                <li><a href="contact.html" class="nav-item">Contact us</a></li>
+            </ul>
+        </div>
+
+        <!-- Footer Bottom Text -->
+        <div class="footer-bottom">
+            <p>&copy; 2023 Apple Watch Store. All rights reserved.</p>
+<p>Contact: info@applewatchstore.com</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Scroll Hint for Users -->
+<div class="scroll-hint">
+    <a href="#" class="scroll-icon"><i class="ri-arrow-down-s-fill"></i></a>
+
+    <!-- JavaScript library for scroll reveal effects -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</div>
+
+  <script>
+    function addToCart(button) {
+button.classList.add('added-to-cart');
+button.innerHTML = 'Added';
+}
+</script>
+</body>
+
+</html>

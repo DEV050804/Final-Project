@@ -1,0 +1,209 @@
+/* Reset and common styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 42px;
+  color: #fff;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 0 20px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #e74c3c;
+}
+
+/* Main section styles */
+main {
+  background-color: #fff;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text {
+  flex: 1;
+  padding: 20px;
+  color: #444;
+}
+
+.text h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.text p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.row {
+  margin-top: 30px;
+}
+
+.home-how-it-works-bg {
+  background-color: #f2f2f2;
+  padding: 40px 20px;
+}
+
+.home-how-it-works h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.home-how-it-works h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* Product grid styles */
+.product-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.product {
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.product:hover {
+  transform: translateY(-10px);
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.product img:hover {
+  transform: scale(1.1);
+}
+
+.product h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.product p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+/*footer style */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.social-icons,
+.footer-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-icons a,
+.footer-nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover,
+.footer-nav a:hover {
+  color: #e74c3c;
+}
+
+.footer-nav ul {
+  display: flex;
+}
+
+.footer-nav li {
+  margin-right: 20px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+}
+
+/* Optional: Add some spacing between the footer sections */
+.footer-container > * {
+  margin-bottom: 20px;
+}
+
+/* Optional: Style the footer icons */
+.social-icons i {
+  background-color: #555;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/* Optional: Style the navigation links */
+.footer-nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #e74c3c;
+}

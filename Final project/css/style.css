@@ -1,0 +1,154 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Libre Bodoni', serif;
+  line-height: 1.6;
+}
+
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 42px;
+  color: #fff;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 0 20px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #e74c3c;
+}
+
+
+/* Main Content Section Styles */
+.main-section {
+  padding: 50px;
+  text-align: center;
+}
+
+.main-section img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.main-section img:hover {
+  transform: scale(1.1); /* Zoom in on hover */
+}
+
+/*footer style */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.social-icons,
+.footer-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-icons a,
+.footer-nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover,
+.footer-nav a:hover {
+  color: #e74c3c;
+}
+
+.footer-nav ul {
+  display: flex;
+}
+
+.footer-nav li {
+  margin-right: 20px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+}
+
+/* Optional: Add some spacing between the footer sections */
+.footer-container > * {
+  margin-bottom: 20px;
+}
+
+
+/* Scroll Hint Styles */
+.scroll-hint {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.scroll-hint:hover {
+  opacity: 1; /* Increase opacity on hover */
+}
+
+.scroll-icon {
+  font-size: 24px;
+  color: #333;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.scroll-icon:hover {
+  background-color: #ffd700; /* Change background color on hover */
+  color: #333;
+}
+
+/* Add more styles as needed */
