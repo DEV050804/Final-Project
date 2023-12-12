@@ -24,6 +24,11 @@ header {
   color: #fff;
   margin-bottom: 15px;
   letter-spacing: 2px;
+  transition: color 0.3s ease; /* Add transition property */
+}
+
+.logo:hover {
+  color: #e74c3c; /* Change color on hover */
 }
 
 nav ul {
@@ -122,6 +127,25 @@ footer {
   margin-bottom: 20px;
 }
 
+/* Optional: Style the footer icons */
+.social-icons i {
+  background-color: #555;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/* Optional: Style the navigation links */
+.footer-nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #e74c3c;
+}
+
 
 /* Scroll Hint Styles */
 .scroll-hint {
@@ -151,4 +175,3 @@ footer {
   color: #333;
 }
 
-/* Add more styles as needed */

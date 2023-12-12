@@ -3,7 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Libre Bodoni', serif;
+  line-height: 1.6;
 }
 
 body {
@@ -24,6 +25,11 @@ header {
   color: #fff;
   margin-bottom: 15px;
   letter-spacing: 2px;
+  transition: color 0.3s ease; /* Add transition property */
+}
+
+.logo:hover {
+  color: #e74c3c; /* Change color on hover */
 }
 
 nav ul {
@@ -103,35 +109,59 @@ main {
 .products {
   text-align: center;
   padding: 40px 20px;
-  background-image: url(../img/img-7.png);
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
-  color: goldenrod;
+  
 }
 
-.products h2 {
-  color: #333;
-  font-size: 32px;
+.products h2,
+.products p {
+  color:#474646;
   margin-bottom: 20px;
+  transition: color 0.3s ease; /* Color transition effect */
 }
 
 .products p {
-  color: #444;
   font-size: 18px;
   line-height: 1.6;
-  margin-bottom: 20px;
+}
+
+.products:hover h2,
+.products:hover p {
+  color: #ff6347; /* Change to the desired color on hover */
 }
 
 .product-category {
   text-align: center;
   padding: 40px 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .product-category h2 {
-  color: #333;
-  font-size: 32px;
+  font-size: 2.5em;
   margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: color 0.3s ease;
 }
+.product-category h2:hover {
+  color: #ff6347; 
+}
+
+.product-category p {
+  color: #555;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Optional: Add hover effect for demonstration purposes */
+.product-category:hover {
+  background-color: #e0e0e0;
+  transition: background-color 0.3s ease;
+}
+
 
 .product-list {
   display: flex;
@@ -290,4 +320,33 @@ footer {
 
 .footer-nav a:hover {
   color: #e74c3c;
+}
+
+
+/* Scroll Hint Styles */
+.scroll-hint {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.scroll-hint:hover {
+  opacity: 1; /* Increase opacity on hover */
+}
+
+.scroll-icon {
+  font-size: 24px;
+  color: #333;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.scroll-icon:hover {
+  background-color: #ffd700; /* Change background color on hover */
+  color: #333;
 }
